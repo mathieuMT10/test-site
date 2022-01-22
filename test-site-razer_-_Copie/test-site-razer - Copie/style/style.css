@@ -1,0 +1,84 @@
+@import "/style/normalize.css";
+body{
+    background-color: #000;
+}
+*{
+font-family: 'DM Sans', sans-serif;
+}
+:root{
+--main-color: #44d62c;
+--main-gradient:linear-gradient(68deg, rgba(68,214,44,1) 5%, rgba(20,157,20,1) 24%, rgba(10,105,47,1) 44%, rgba(135,0,200,1) 68%);;
+
+}
+
+
+
+/*header*/
+
+.razerLogo{
+    width: 50%;
+    height: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.mainRecherche{
+    margin-left:50%;
+    transform: translateX(-55%);
+}
+
+.barreDeRecherche{
+    padding: 10px;
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+.form-control{
+    background: var(--main-gradient);
+    padding: 10px;
+    border: none;
+    border-radius:20px 0px 0px 20px  ;
+    width: 100%;
+}
+.button, input{
+    overflow: hidden;
+}
+
+.btn{
+    padding: 10px;
+    border: none;
+    border-style: none;
+    background: rgba(135,0,200,1);
+    border-radius: 0px 20px 20px 0px ;
+    width: 100%;
+}
+
+/*maine*/
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    margin: 50px;
+    padding: 20px;
+    border: 4px solid var(--main-color);
+    border-radius:20px;
+    box-shadow: 10px 10px 5px #000;
+}
+.imagesRow{
+    width: 100%;
+}
+.rowText{
+    color: white;
+}
+.RowBtn{
+    border-top: 0px solid #000000;
+    border-left: 0px solid #000000;
+    border-right: 0px solid #000000;
+    padding:10px 50px 10px 0px;
+    border-bottom: 1px solid #44d62c;
+    color:#44d62c;
+    background-color: #000;
+    font-size:18px;
+    font-weight: bold;
+}
